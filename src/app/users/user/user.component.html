@@ -1,0 +1,6 @@
+<!--Fetching Route Parameters-->
+<p>User with ID {{ user.id }} loaded.</p>
+<p>User name is {{ user.name }}.</p>
+<hr />
+<!--Fetching Route Parameters Reactively-->
+<a [routerLink]="['/users', 10, 'Anna']">Load Anna</a>
